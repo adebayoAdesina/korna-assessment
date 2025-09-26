@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Korna Assessment UI Replica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, high-fidelity React application replicating the user interface from the provided design references. Built with React and Styled Components for modern, maintainable CSS-in-JS styling.
+
+## Design References
+
+- [Design Reference 1](https://drive.google.com/file/d/11L711oIr68CzIYaWQRaR8L0lGfmRqoFL/view)
+- [Design Reference 2](https://drive.google.com/file/d/1K_bfbQ7BM79_kDt_DDG5IjkjSweo7EsU/view)
+
+## Technologies Used
+
+- **React** (v19.1.1) - JavaScript library for building user interfaces
+- **Styled Components** (v6.1.19) - CSS-in-JS library for component-level styling
+- **Create React App** - Build setup and development tools
+
+## Features
+
+- Responsive design that adapts to different screen sizes
+- High-fidelity UI replication from design specifications
+- Component-based architecture with reusable UI elements
+- Modern CSS-in-JS approach with Styled Components
+- Clean, maintainable codebase structure
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd korna-assessment
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server:
+
+```bash
+npm start
+```
+
+This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes, and you may also see any lint errors in the console.
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   └── NavBar.js       # Navigation bar component
+├── views/              # Page-level components
+│   └── Index.js        # Main index page
+├── App.js              # Main application component
+├── App.styles.js       # Global styles and theme
+└── index.js            # Application entry point
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner in interactive watch mode
+- `npm run build` - Builds the app for production to the `build` folder
+- `npm run eject` - **Note: this is a one-way operation!** Ejects from Create React App
 
-### `npm start`
+## Next Steps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Implement additional UI components based on design references
+- Add interactive features and state management as needed
+- Optimize for performance and accessibility
+- Add comprehensive testing coverage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is private and for assessment purposes.
