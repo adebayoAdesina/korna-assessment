@@ -27,7 +27,7 @@ export const StaffPicksListStyle = styled.div`
 
 export const StaffPickCardStyle = styled.div`
   display: flex;
-  gap: 12px;
+  gap: 15px;
   cursor: pointer;
   transition: opacity 0.2s ease;
 
@@ -35,10 +35,10 @@ export const StaffPickCardStyle = styled.div`
     opacity: 0.8;
   }
   img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10px;
   }
 `;
 
@@ -49,15 +49,15 @@ export const StaffPickBodyStyle = styled.div`
 export const StaffPickAuthorStyle = styled.div`
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   margin-bottom: 4px;
   font-size: 12px;
   color: #6b6b6b;
   img {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: cover;
   }
 `;
 
@@ -65,7 +65,6 @@ export const StaffPickTitleStyle = styled.h4`
   font-size: 14px;
   font-weight: 500;
   color: #242424;
-  line-height: 1.3;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -128,14 +127,14 @@ export const AccountCardStyle = styled.div`
 
 export const AuthorDetailStyle = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: start;
   gap: 12px;
   flex: 1;
   img {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    object-fit: contain;
+    object-fit: cover;
   }
   div {
     flex: 1;
@@ -145,7 +144,8 @@ export const AuthorDetailStyle = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: #242424;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 0;
   }
   p {
     font-size: 13px;
@@ -193,8 +193,8 @@ export const ReadingStyle = styled.p`
     width: 16px;
     height: 16px;
     vertical-align: middle;
-    margin: 0 2px;
-    fill: #6b6b6b;
+    margin: 0 3px;
+    color: #000;
   }
 `;
 

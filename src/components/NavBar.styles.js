@@ -37,6 +37,12 @@ export const SearchInputStyle = styled.div`
       outline: none;
     }
   }
+  @media (max-width: 760px) {
+    background-color: transparent;
+    input {
+      display: none;
+    }
+  }
 `;
 
 export const NavRightStyle = styled.div`
@@ -62,6 +68,11 @@ export const NavRightStyle = styled.div`
     box-shadow: 1px 1px ${colors.gray200};
     & > img {
       width: 100%;
+    }
+  }
+  @media (max-width: 760px) {
+    button {
+      display: none;
     }
   }
 `;

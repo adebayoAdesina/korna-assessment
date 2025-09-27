@@ -25,7 +25,7 @@ export const postData = [
       "https://img.freepik.com/premium-photo/high-quality-wallpaper-background-hd_783884-188923.jpg",
     totalComment: 703,
     totalClapping: 54,
-    recentClipping: null,
+    recentClipping: ["Trey Huffine"],
     datePosted: "2025-09-21",
     postedIn: "Learn to Coding",
     groupLogo:
