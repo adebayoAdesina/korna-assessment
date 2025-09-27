@@ -9,7 +9,7 @@ export const formatTime = (createdDate) => {
   if (diffDays < 7) {
     if (diffDays === 0) return "Today";
     if (diffDays === 1) return "Yesterday";
-    return `${diffDays} days ago`;
+    return `${diffDays}d ago`;
   }
 
   // Formatting options

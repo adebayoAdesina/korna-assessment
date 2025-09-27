@@ -6,6 +6,8 @@ import {
   LayoutTabStyle,
   TabButton,
 } from "./Layout.styles";
+import { postData } from "../data/postData";
+import PostCard from "./PostCard";
 
 const Layout = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -24,6 +26,9 @@ const Layout = () => {
             </TabButton>
           ))}
         </LayoutTabStyle>
+        {postData.map((res, index) => (
+          <PostCard data={res} key={index + res.title}/>
+        ))}
       </LayoutLeftStyle>
       <LayoutRightStyle></LayoutRightStyle>
     </LayoutStyle>
