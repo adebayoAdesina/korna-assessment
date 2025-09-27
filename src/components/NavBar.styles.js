@@ -6,7 +6,7 @@ export const NavStyle = styled.nav`
   justify-items: center;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 5%;
+  padding: 15px 3%;
   border-bottom: 1px solid ${colors.gray500};
   img {
     max-width: 80px;
