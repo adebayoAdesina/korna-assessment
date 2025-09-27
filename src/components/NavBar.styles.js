@@ -54,8 +54,8 @@ export const NavRightStyle = styled.div`
     cursor: pointer;
   }
   div {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;

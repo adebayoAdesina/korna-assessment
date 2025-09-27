@@ -7,6 +7,7 @@ import {
   WriteButtonStyle,
 } from "./NavBar.styles";
 import { MEDIUM_LOGO } from "../constant/appImages";
+import { colors } from "../utils/colors";
 
 const NavBar = () => {
   return (
@@ -31,7 +32,12 @@ const NavBar = () => {
           Write
         </WriteButtonStyle>
         <button>
-          <Icon icon="hugeicons:notification-01" width="24" height="24" />
+          <Icon
+            icon="hugeicons:notification-01"
+            width="24"
+            height="24"
+            style={{ color: `${colors.gray600}` }}
+          />
         </button>
         <div>
           <img

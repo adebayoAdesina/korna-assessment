@@ -37,6 +37,7 @@ export const TabButton = styled.button`
 `;
 
 export const LayoutRightStyle = styled.section`
-  background-color: red;
   width: 800px;
+  border-left: 1px solid ${colors.gray500};
+  padding: 60px 50px;
 `;

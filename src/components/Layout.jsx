@@ -8,6 +8,7 @@ import {
 } from "./Layout.styles";
 import { postData } from "../data/postData";
 import PostCard from "./PostCard";
+import Sidebar from "./SideBar";
 
 const Layout = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -27,10 +28,12 @@ const Layout = () => {
           ))}
         </LayoutTabStyle>
         {postData.map((res, index) => (
-          <PostCard data={res} key={index + res.title}/>
+          <PostCard data={res} key={index + res.title} />
         ))}
       </LayoutLeftStyle>
-      <LayoutRightStyle></LayoutRightStyle>
+      <LayoutRightStyle>
+        <Sidebar />
+      </LayoutRightStyle>
     </LayoutStyle>
   );
 };
