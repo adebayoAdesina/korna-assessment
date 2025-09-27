@@ -3,6 +3,10 @@ import { colors } from "../utils/colors";
 
 export const LayoutStyle = styled.main`
   display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
 `;
 
 export const LayoutLeftStyle = styled.section`

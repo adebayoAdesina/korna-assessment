@@ -5,7 +5,8 @@ export const PostCardStyle = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 35px 0;
+  padding: 45px 0;
+  border-bottom: 1px solid ${colors.gray400};
 `;
 
 export const PostCardHeaderStyle = styled.div`
@@ -42,7 +43,7 @@ export const PostCardBodyStyle = styled.div`
         cursor: pointer;
       }
       h4 {
-        font-size: 32px;
+        font-size: 30px;
         padding: 0;
         margin: 0;
       }
